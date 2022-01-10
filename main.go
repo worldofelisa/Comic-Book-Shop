@@ -14,6 +14,9 @@ type Book struct {
 	Condition float64
 }
 
+//TODO If you were to add data from other points or allow others to add data,
+//add a validation here to stop people from breaking stuff
+
 var bookList = []Book{
 	{
 		Title:     "Mr.GoToSleep",
@@ -41,6 +44,15 @@ var bookList = []Book{
 		Year:      2016,
 		Pages:     55,
 		Condition: 8.7,
+	},
+	{
+		Title:     "Mia's \"Weird\" Day Out",
+		Author:    "Mia McKelly",
+		Artist:    "Kelly Miana",
+		Publisher: "Day Adventures LLC.",
+		Year:      1995,
+		Pages:     25,
+		Condition: 8.25,
 	},
 }
 
